@@ -4,7 +4,7 @@ import { Navigate } from 'react-router-dom';
 
 interface LoginState {
   email: string;
-  password: "";
+  password: string;
   error: string;
   redirectToDashboard: boolean;
 }

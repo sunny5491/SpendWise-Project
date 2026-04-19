@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExpenseData } from '../services/ExpenseService';
+import { type ExpenseData } from '../services/ExpenseService';
 
 interface ExpenseListProps {
   expenses: ExpenseData[];

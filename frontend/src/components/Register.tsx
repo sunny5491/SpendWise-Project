@@ -4,7 +4,7 @@ import { Navigate } from 'react-router-dom';
 
 interface RegisterState {
   email: string;
-  password: "";
+  password: string;
   error: string;
   redirectToLogin: boolean;
 }

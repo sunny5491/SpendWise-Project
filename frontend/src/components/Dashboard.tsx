@@ -1,6 +1,6 @@
 import React from 'react';
-import ExpenseService, { ExpenseData } from '../services/ExpenseService';
-import BudgetService, { BudgetStatus } from '../services/BudgetService';
+import ExpenseService, { type ExpenseData } from '../services/ExpenseService';
+import BudgetService, { type BudgetStatus } from '../services/BudgetService';
 import AuthService from '../services/AuthService';
 import { Navigate } from 'react-router-dom';
 import ExpenseForm from './ExpenseForm';
